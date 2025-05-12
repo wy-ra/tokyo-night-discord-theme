@@ -85,51 +85,51 @@ body {
   /* text colors */
   --text-0: var(--bg-4); /* text on colored elements */
   --text-1: hsl(
-    222,
+    282,
     75%,
     95%
   ); /* other normally white text - based on c0caf5 */
   --text-2: hsl(
-    228,
+    288,
     31%,
     70%
   ); /* headings and important text - based on a9b1d6 */
   --text-3: hsl(230, 21%, 65%); /* normal text - based on 9aa5ce */
   --text-4: hsl(
-    234,
+    294,
     14%,
     53%
   ); /* icon buttons and channels - based on 787c99 */
   --text-5: hsl(
-    233,
+    293,
     14%,
     40%
   ); /* muted channels/chats and timestamps - based on 565f89 */
 
   /* background and dark colors */
   --bg-1: hsla(
-    235,
-    18%,
-    20%,
-    1
+    294,
+    33%,
+    50%,
+    0.5
   ); /* dark buttons when clicked - based on 232433 */
   --bg-2: hsla(235, 22%, 16%, 1); /* dark buttons - based on 16161e */
   --bg-3: hsla(
-    235,
-    22%,
-    13%,
-    1
+    294,
+    50%,
+    25%,
+    0.5
   ); /* spacing, secondary elements - based on 1a1b26 */
   --bg-4: hsla(235, 23%, 10%, 1); /* main background color - based on 13131a */
   --hover: hsla(235, 23%, 25%, 0.1); /* channels and buttons when hovered */
   --active: hsla(
-    235,
+    295,
     23%,
     27%,
     0.2
   ); /* channels and buttons when clicked or selected */
   --active-2: hsla(
-    235,
+    295,
     23%,
     29%,
     0.3
