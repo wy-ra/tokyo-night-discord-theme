@@ -137,11 +137,11 @@ body {
   --message-hover: hsla(235, 23%, 15%, 0.1); /* messages when hovered */
 
   /* accent colors - based on Tokyo Night VS code theme */
-  --accent-1: var(--blue-1); /* links and other accent text */
-  --accent-2: var(--blue-2); /* small accent elements */
-  --accent-3: var(--blue-3); /* accent buttons */
-  --accent-4: var(--blue-4); /* accent buttons when hovered */
-  --accent-5: var(--blue-5); /* accent buttons when clicked */
+  --accent-1: var(--purple-1); /* links and other accent text */
+  --accent-2: var(--purple-2); /* small accent elements */
+  --accent-3: var(--purple-3); /* accent buttons */
+  --accent-4: var(--purple-4); /* accent buttons when hovered */
+  --accent-5: var(--purple-5); /* accent buttons when clicked */
   --accent-new: var(
     --accent-2
   ); /* stuff that's normally red like mute/deafen buttons */
@@ -262,7 +262,7 @@ pre {
 /* Button and interactive element highlights using Tokyo Night colors */
 .button-1YfofN:hover,
 .colorable-1bkp8v.primaryDark-3mSFDl:hover {
-  background-color: var(--blue-3) !important;
+  background-color: var(--purple-3) !important;
 }
 
 /* Improved channel list styling */
@@ -277,7 +277,7 @@ pre {
 /* Server list styling */
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
 .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
-  background-color: var(--blue-2) !important;
+  background-color: var(--purple-2) !important;
   color: var(--text-1) !important;
 }
 
@@ -289,7 +289,7 @@ pre {
 /* Improve highlight colors for mentions and code */
 .mention {
   background-color: hsla(283, 89%, 66%, 0.3) !important;
-  color: var(--blue-1) !important;
+  color: var(--purple-1) !important;
 }
 
 .hljs-comment,
